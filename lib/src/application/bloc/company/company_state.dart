@@ -1,5 +1,4 @@
 import 'package:tap_project/src/application/model/company_model.dart';
-import 'package:tap_project/src/core/app_constants.dart';
 
 class CompanyState {
   CompanyModel? companyModel;
