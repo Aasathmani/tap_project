@@ -81,9 +81,9 @@ class _CompanyPageState extends State<CompanyPage> {
                 child: TabBarView(
                   children: [
                     SingleChildScrollView(
-                      // padding: const EdgeInsets.symmetric(
-                      //   horizontal: Units.kStandardPadding,
-                      // ),
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: Units.kStandardPadding,
+                      ),
                       child: Column(
                         children: [
                           _getCompanyFinancialsLayout(context, state),
