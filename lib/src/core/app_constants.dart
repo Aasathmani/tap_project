@@ -1,6 +1,8 @@
 class AppIcons {
   AppIcons._();
   static const String kContactInfo = 'assets/images/contact_info.svg';
+  static const String kIcCons = 'assets/images/ic_cons.svg';
+  static const String kIcPros = 'assets/images/ic_pros.svg';
 }
 
 class Units {
@@ -52,9 +54,9 @@ class Units {
   static const double kZero = 0;
 }
 
-
 class ApiEndPoints {
   ApiEndPoints._();
   static const String bondsListApi = 'https://eol122duf9sy4de.m.pipedream.net/';
-  static const String companyDetailsApi = 'https://eo61q3zd4heiwke.m.pipedream.net/';
+  static const String companyDetailsApi =
+      'https://eo61q3zd4heiwke.m.pipedream.net/';
 }

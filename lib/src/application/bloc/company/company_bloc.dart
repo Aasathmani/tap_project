@@ -9,6 +9,9 @@ class CompanyBloc extends Bloc<CompanyEvent, CompanyState> {
     on<OnInit>((event, emit) async {
       await _onInit(event, emit);
     });
+    on<MetricToggleChange>((event, emit) {
+      emit(state.copyWith(selectedMetric: event.metric));
+    });
     add(OnInit());
   }
 

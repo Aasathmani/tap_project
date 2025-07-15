@@ -43,6 +43,9 @@ class _HomePageState extends State<HomePage> {
     return BlocConsumer<HomeBloc, HomeState>(
       listener: (context, state) {},
       builder: (context, state) {
+        if (state.bondsList == null) {
+          return Center(child: CircularProgressIndicator());
+        }
         return ColoredBox(
           color: AppColors.lightGrey1,
           child: Padding(

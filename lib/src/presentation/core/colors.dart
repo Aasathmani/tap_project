@@ -142,4 +142,5 @@
     static const Color greyLight = Color(0xFF6D6E70);
     static const Color brightGreen = Color(0xFF31DE27);
     static const Color shadeBlue = Color(0xFF2563EB);
+    static const Color brown = Color(0xFFB45309);
   }
